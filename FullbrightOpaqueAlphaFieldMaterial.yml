@@ -1,0 +1,83 @@
+!Material
+ResourceType: Material
+Name: flower
+Flags: Bit0, Bit1, Bit5, Bit6, Bit13, HasDiffuseMap
+AmbientColor:
+  X: 0.60000002384185791
+  Y: 0.60000002384185791
+  Z: 0.60000002384185791
+  W: 1
+DiffuseColor:
+  X: 1
+  Y: 1
+  Z: 1
+  W: 1
+SpecularColor: &o0
+  X: 0
+  Y: 0
+  Z: 0
+  W: 0
+EmissiveColor: *o0
+Field40: 1
+Field44: 0.10000000149011612
+DrawMethod: Opaque
+Field49: 1
+Field4A: 0
+Field4B: 1
+Field4C: 0
+Field4D: 1
+Field90: 128
+Field92: 4
+Field94: 1
+Field96: 0
+Field5C: 0
+Field6C: 4294967288
+Field70: 4294967288
+DisableBackfaceCulling: 0
+Field98: 4294967295
+DiffuseMap: &o1 !TextureMap
+  ResourceType: TextureMap
+  Name: f002_009_flo.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846528
+NormalMap: 
+SpecularMap: 
+ReflectionMap: 
+HighlightMap: 
+GlowMap: 
+NightMap: 
+DetailMap: 
+ShadowMap: 
+TextureMaps:
+- *o1
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+Attributes: 
+IsPresetMaterial: false
+Version: 17846528
