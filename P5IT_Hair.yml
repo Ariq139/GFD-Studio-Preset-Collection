@@ -1,0 +1,160 @@
+!Material
+ResourceType: Material
+Name: hair
+Flags: Bit0, Bit1, Bit2, Bit5, Bit6, Bit8, EnableLight2, ReceiveShadow, CastShadow, HasAttributes, Bit17, HasDiffuseMap, HasSpecularMap, HasShadowMap
+AmbientColor:
+  X: 0.7450980544090271
+  Y: 0.61176472902297974
+  Z: 0.7137255072593689
+  W: 1
+DiffuseColor:
+  X: 0.11764706671237946
+  Y: 0.11764706671237946
+  Z: 0.11764706671237946
+  W: 1
+SpecularColor:
+  X: 0.039215687662363052
+  Y: 0.039215687662363052
+  Z: 0.039215687662363052
+  W: 1
+EmissiveColor:
+  X: 0.35294118523597717
+  Y: 0.21568629145622253
+  Z: 0.21568629145622253
+  W: 1
+Field40: 1
+Field44: 0.10000000149011612
+DrawMethod: Opaque
+Field49: 1
+Field4A: 0
+Field4B: 1
+Field4C: 0
+Field4D: 1
+Field90: 0
+Field92: 4
+Field94: 4
+Field96: 0
+Field5C: 2
+Field6C: 4177526328
+Field70: 4177526328
+DisableBackfaceCulling: 0
+Field98: 4294967295
+DiffuseMap: &o0 !TextureMap
+  ResourceType: TextureMap
+  Name: p3_femc_sees_tex.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846384
+NormalMap: 
+SpecularMap: &o1 !TextureMap
+  ResourceType: TextureMap
+  Name: black.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846384
+ReflectionMap: 
+HighlightMap: 
+GlowMap: 
+NightMap: 
+DetailMap: 
+ShadowMap: &o2 !TextureMap
+  ResourceType: TextureMap
+  Name: AlphaDummy.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846384
+TextureMaps:
+- *o0
+- 
+- *o1
+- 
+- 
+- 
+- 
+- 
+- *o2
+Attributes:
+- !MaterialAttributeType2
+  Field0C: 0
+  Field10: 121
+  ResourceType: MaterialAttribute
+  RawFlags: 65538
+  Flags: Bit0
+  AttributeType: Type2
+  Version: 17846384
+- !MaterialAttributeType0
+  Color:
+    X: 1
+    Y: 0.52549022436141968
+    Z: 0.51372551918029785
+    W: 0.31372550129890442
+  Field1C: 0.75
+  Field20: 14
+  Field24: 0.40000000596046448
+  Field28: 0.60000002384185791
+  Field2C: 14
+  Type0Flags: 69
+  ResourceType: MaterialAttribute
+  RawFlags: 65536
+  Flags: Bit0
+  AttributeType: Type0
+  Version: 17846384
+IsPresetMaterial: false
+Version: 17846384
