@@ -1,0 +1,144 @@
+!Material
+ResourceType: Material
+Name: M_10_TU0_dev076_Arms
+Flags: Bit0, Bit1, Bit2, Bit5, Bit6, EnableLight2, CastShadow, HasAttributes, Bit17, HasDiffuseMap, HasSpecularMap
+AmbientColor:
+  X: 0.50196081399917603
+  Y: 0.50196081399917603
+  Z: 0.50196081399917603
+  W: 1
+DiffuseColor:
+  X: 1
+  Y: 0
+  Z: 0
+  W: 1
+SpecularColor: &o2
+  X: 0
+  Y: 0
+  Z: 0
+  W: 0
+EmissiveColor:
+  X: 0.89999997615814209
+  Y: 0.89999997615814209
+  Z: 0.89999997615814209
+  W: 10
+Field40: 1
+Field44: 0.10000000149011612
+DrawMethod: Opaque
+Field49: 1
+Field4A: 0
+Field4B: 1
+Field4C: 0
+Field4D: 1
+Field90: 0
+Field92: 4
+Field94: 0
+Field96: 0
+Field5C: 99
+Field6C: 4294966840
+Field70: 4294966840
+DisableBackfaceCulling: 0
+Field98: 4294967295
+DiffuseMap: &o0 !TextureMap
+  ResourceType: TextureMap
+  Name: T_dev076_main_D.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846416
+NormalMap: 
+SpecularMap: &o1 !TextureMap
+  ResourceType: TextureMap
+  Name: T_dev076_main_Gloss.dds
+  Field44: 0
+  Field48: 1
+  Field49: 1
+  Field4A: 0
+  Field4B: 0
+  Field4C: 1
+  Field50: -0
+  Field54: 0
+  Field58: 0
+  Field5C: 0
+  Field60: 1
+  Field64: 0
+  Field68: 0
+  Field6C: 0
+  Field70: 0
+  Field74: 0
+  Field78: 0
+  Field7C: 0
+  Field80: 0
+  Field84: 0
+  Field88: 0
+  Version: 17846416
+ReflectionMap: 
+HighlightMap: 
+GlowMap: 
+NightMap: 
+DetailMap: 
+ShadowMap: 
+TextureMaps:
+- *o0
+- 
+- *o1
+- 
+- 
+- 
+- 
+- 
+- 
+Attributes:
+- !MaterialAttributeType2
+  Field0C: 0
+  Field10: 127
+  ResourceType: MaterialAttribute
+  RawFlags: 65538
+  Flags: Bit0
+  AttributeType: Type2
+  Version: 17846416
+- !MaterialAttributeType4
+  Field0C:
+    X: 0.9803922176361084
+    Y: 0.9803922176361084
+    Z: 0.9803922176361084
+    W: 0
+  Field1C: 0.69999998807907104
+  Field20: 14
+  Field24: *o2
+  Field34: 0
+  Field38: 0
+  Field3C: 0.20000000298023224
+  Field40: 0
+  Field44: 2.5
+  Field48: 150
+  Field4C: 0.60000002384185791
+  Field50: 1
+  Field54: 430
+  Field58: 0.89999997615814209
+  Field5C: 1
+  ResourceType: MaterialAttribute
+  RawFlags: 65540
+  Flags: Bit0
+  AttributeType: Type4
+  Version: 17846416
+IsPresetMaterial: false
+Version: 17846416
